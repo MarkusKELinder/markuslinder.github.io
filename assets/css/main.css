@@ -29,9 +29,20 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
 	line-height: 1;
 }
+.proficiency-note {
+    position: absolute !important;
+    bottom: 10px !important;
+    left: 50px !important;
+    font-size: 0.8em !important;
+    color: #fff !important;
+}
+
+
+
 
 ol, ul {
 	list-style: none;
@@ -3685,5 +3696,6 @@ input, select, textarea {
 				-ms-transform: none;
 				transform: none;
 			}
+
 
 	}
